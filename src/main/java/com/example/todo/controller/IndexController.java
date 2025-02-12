@@ -10,6 +10,6 @@ public class IndexController {
     @GetMapping
     public String index() {
         return "index";
-        //メモ：Controllerの/の後に？的な、localhost8080に接続したときに戻り値(elloworld)にアクセス
+        //メモ：Controllerの/の後にreturn後の内容が続く、localhost8080に接続したときにindex.htmlにアクセス
     }
 }
